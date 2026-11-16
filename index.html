@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>비행노트 (Flight Note)</title>
+  <link rel="icon" href="icon.png" />
+  <style>
+    :root { --bg:#fbfaf7; --text:#2f2d29; --muted:#6f6b63; --line:#e7e3da; --accent:#8a6a2a; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#0e1320; --text:#ecebe8; --muted:#a19d96; --line:#2a3145; --accent:#d9b878; } }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.75 -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+    header { display:flex; align-items:center; gap:14px; margin-bottom: 28px; }
+    header img { width:56px; height:56px; border-radius: 13px; }
+    header a { color: inherit; text-decoration: none; font-weight: 700; font-size: 20px; }
+    h1 { font-size: 28px; margin: 0 0 6px; line-height: 1.35; }
+    h2 { font-size: 18px; margin: 34px 0 6px; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); font-size: 14px; }
+    ul { padding-left: 20px; }
+    a { color: var(--accent); }
+    table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 10px 0; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; vertical-align: top; }
+    nav { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 14px; display:flex; gap:16px; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+<main>
+  <header><img src="icon.png" alt="" /><a href="./">비행노트 <span style="font-weight:500;opacity:.6">(Flight Note)</span></a></header>
+  <h1>내 비행을 탑승권으로 모으는 기록장</h1>
+  <p>비행노트(Flight Note)는 내가 탄 비행을 탑승권 모양으로 모아 두는 아이폰 앱이에요. 회원 가입이 없고, 비행 기록과 여권 정보는 내 아이폰(과 내 iCloud)에만 저장돼요.</p>
+  <ul>
+    <li><strong>예정</strong>: 다음 비행까지 남은 시간과 탑승권을 한 장으로 보기. 출발이 가까워지면 잠금 화면과 다이내믹 아일랜드에도 보여요.</li>
+    <li><strong>기록</strong>: 날아간 거리, 횟수, 다녀온 공항과 나라, 자주 탄 노선을 지도와 함께 보기</li>
+    <li><strong>내 여권</strong>: 여권을 한 번 찍어 두면 번호와 만료일을 바로 꺼내 보기. 암호화해서 이 아이폰에만 보관하고 Face ID로 잠가요.</li>
+    <li>탑승권 바코드 스캔, 탑승권 사진, 캘린더 일정, CSV·엑셀 파일로 지난 비행 불러오기</li>
+    <li>전 세계 공항 8,700여 곳과 항공사 900여 곳을 한국어와 영어로 찾기</li>
+  </ul>
+
+  <h2 lang="en">About Flight Note</h2>
+  <div lang="en">
+    <p>Flight Note is an iPhone logbook that keeps each flight you take as a boarding pass. There is no account. Your flight log and passport details stay on your iPhone (and in your own iCloud).</p>
+    <ul>
+      <li><strong>Upcoming</strong>: your next boarding pass and the time left, also on the Lock Screen and Dynamic Island close to departure</li>
+      <li><strong>Log</strong>: distance flown, flight counts, airports and countries visited, and your most flown routes, with a map</li>
+      <li><strong>Passport</strong>: scan your passport once and pull up its number and expiry date any time. Stored encrypted on this iPhone only and locked with Face ID.</li>
+      <li>Bring in past flights from a boarding pass barcode, a photo, your calendar, or a CSV or Excel file</li>
+    </ul>
+  </div>
+
+  <nav><a href="./">소개</a><a href="support.html">지원</a><a href="privacy.html">개인정보처리방침 (Privacy Policy)</a></nav>
+</main>
+</body>
+</html>
